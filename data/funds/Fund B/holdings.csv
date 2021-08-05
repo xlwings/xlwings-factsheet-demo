@@ -1,0 +1,28 @@
+﻿Company,Exchange,Symbol,Industry,Index weighting
+Apple Inc.,NASDAQ,AAPL,IT,0.02
+Boeing,NYSE,BA,Aerospace and defense,0.0292
+Caterpillar Inc.,NYSE,CAT,Construction and Mining,0.0254
+Chevron Corporation,NYSE,CVX,Petroleum industry,0.0203
+Cisco Systems,NASDAQ,CSCO,IT,0.01
+The Coca-Cola Company,NYSE,KO,Food industry,0.0104
+Dow Inc.,NYSE,DOW,Chemical industry,0.0225
+Goldman Sachs,NYSE,GS,Financials,0.0654
+The Home Depot,NYSE,HD,Retailing,0.0224
+Honeywell,NASDAQ,HON,Conglomerate,0.0247
+IBM,NYSE,IBM,IT,0.0259
+Intel,NASDAQ,INTC,IT,0.0125
+Johnson & Johnson,NYSE,JNJ,Pharma,0.0329
+JPMorgan Chase,NYSE,JPM,Financials,0.0795
+McDonald's,NYSE,MCD,Food industry,0.0449
+Merck & Co.,NYSE,MRK,Pharma,0.0149
+Microsoft,NASDAQ,MSFT,IT,0.1698
+"Nike, Inc.",NYSE,NKE,Apparel,0.0258
+Procter & Gamble,NYSE,PG,Fast-moving consumer goods,0.0264
+Salesforce,NYSE,CRM,IT,0.0245
+The Travelers Companies,NYSE,TRV,Financials,0.0303
+UnitedHealth Group,NYSE,UNH,Managed health care,0.0733
+Verizon Communications,NYSE,VZ,Telecommunication,0.0713
+Visa Inc.,NYSE,V,Financials,0.0233
+Walgreens Boots Alliance,NASDAQ,WBA,Retailing,0.0206
+Walmart,NYSE,WMT,Retailing,0.0272
+The Walt Disney Company,NYSE,DIS,Entertainment,0.0466
