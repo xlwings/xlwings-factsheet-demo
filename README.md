@@ -56,7 +56,7 @@ To produce these reports by yourself, open the `demo.xlsm` file and click the `R
 
 The code in `demo.py` shows how you can easily work with external files:
 
-* **Text**: You can work with text files like `data/common/disclaimer.txt`. The text uses two times the `asofdate` placeholder with two variations of the `datetime` filter.
+* **Text**: You can work with Markdown/text files like `data/common/disclaimer.md`. The text uses two times the `asofdate` placeholder with two variations of the `datetime` filter.
 * **Word**: The `python-docx` package is used to read `data/common/intro.docx`. The advantage of using something like Word for writing text is that you get automatic spelling/grammar correction. Since xlwings Reports expects your text to be in Markdown, however, you'll need to [disable bulleted lists](https://support.microsoft.com/en-us/office/turn-on-or-off-automatic-bullets-or-numbering-ac3d9d00-0bb6-4421-92a6-f73e564ce71e). Or, if you use filters, you'll also need to [disable smart quotes](https://support.microsoft.com/en-us/office/smart-quotes-in-word-702fc92e-b723-4e3d-b2cc-71dedaf2f343). 
 * **CSV**: pandas is used to load the CSV files as DataFrames.
 

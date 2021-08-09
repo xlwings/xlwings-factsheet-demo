@@ -60,7 +60,7 @@ def preprocess(fundname, run_sheet):
         intro += paragraph.text + '\n'
 
     # Read a text file
-    with open(THIS_DIR / 'data' / 'common' / 'disclaimer.txt', 'r', encoding='utf-8') as fh:
+    with open(THIS_DIR / 'data' / 'common' / 'disclaimer.md', 'r', encoding='utf-8') as fh:
         disclaimer = fh.read()
 
     # Calculate historical performance
