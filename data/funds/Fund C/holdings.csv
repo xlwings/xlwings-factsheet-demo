@@ -1,4 +1,4 @@
-﻿Company,Exchange,Symbol,Industry,Index weighting
+﻿Company,Exchange,Symbol,Industry,Weight
 Apple Inc.,NASDAQ,AAPL,IT,0.1416
 Boeing,NYSE,BA,Aerospace and defense,0.0292
 Caterpillar Inc.,NYSE,CAT,Construction and Mining,0.0254

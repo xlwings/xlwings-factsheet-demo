@@ -1,4 +1,4 @@
-﻿Company,Exchange,Symbol,Industry,Index weighting
+﻿Company,Exchange,Symbol,Industry,Weight
 3M,NYSE,MMM,Conglomerate,0.0384
 American Express,NYSE,AXP,Financials,0.0288
 Amgen,NASDAQ,AMGN,Pharma,0.0487
