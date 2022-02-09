@@ -78,7 +78,7 @@ def preprocess(fundname, run_sheet):
     # Produce QR code
     qr = segno.make(f'https://www.xlwings.org/funds/{fundname.replace(" ", "-")}')
     if sys.platform.startswith("darwin"):
-        extension = "pdf"
+        extension = "png"
     else:
         extension = "svg"
     qrcode_path = tempfile.gettempdir() + f'/qr.{extension}'
