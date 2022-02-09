@@ -1,4 +1,5 @@
 import os
+import sys
 import tempfile
 import datetime as dt
 from pathlib import Path
@@ -76,7 +77,11 @@ def preprocess(fundname, run_sheet):
 
     # Produce QR code
     qr = segno.make(f'https://www.xlwings.org/funds/{fundname.replace(" ", "-")}')
-    qrcode_path = tempfile.gettempdir() + '/qr.svg'
+    if sys.platform.startswith("darwin"):
+        extension = "pdf"
+    else:
+        extension = "svg"
+    qrcode_path = tempfile.gettempdir() + f'/qr.{extension}'
     qr.save(qrcode_path, scale=5, border=0, finder_dark=XLWINGS_GREEN)
 
     # Define Markdown styling
